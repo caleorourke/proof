@@ -58,3 +58,42 @@ table {
     display: table;
   }
 }
+
+.datatable {
+  margin-bottom: 40px;
+}
+
+.dataTables_filter {
+  float: right;
+}
+
+table.dataTable thead {
+  .sorting,
+  .sorting_asc,
+  .sorting_desc,
+  .sorting_asc_disabled,
+  .sorting_desc_disabled {
+    letter-spacing: @letter-spacing-small;
+    vertical-align: top;
+    background: 0;
+  }
+
+  .sorting_asc:after {
+    float: right;
+    font-family: fontawesome;
+    content: "\f0de";
+  }
+
+  .sorting_desc:after {
+    float: right;
+    font-family: fontawesome;
+    content: "\f0dd";
+  }
+
+  .sorting:after {
+    float: right;
+    font-family: fontawesome;
+    color: rgba(50,50,50,.5);
+    content: "\f0dc";
+  }
+}

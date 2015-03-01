@@ -1146,6 +1146,43 @@ table > tbody > tr td > ul {
   }
 }
 
+.datatable {
+  margin-bottom: 40px;
+}
+
+.dataTables_filter {
+  float: right;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+  letter-spacing: -0.02em;
+  vertical-align: top;
+  background: 0;
+}
+
+table.dataTable thead .sorting_asc:after {
+  float: right;
+  font-family: fontawesome;
+  content: "\f0de";
+}
+
+table.dataTable thead .sorting_desc:after {
+  float: right;
+  font-family: fontawesome;
+  content: "\f0dd";
+}
+
+table.dataTable thead .sorting:after {
+  float: right;
+  font-family: fontawesome;
+  color: rgba(50, 50, 50, 0.5);
+  content: "\f0dc";
+}
+
 /*
  * Blockquote
  *
@@ -1405,6 +1442,99 @@ blockquote a:focus {
 
 .icon-purple {
   color: #a90b84;
+}
+
+/*
+ * Code
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+code,
+output,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, monospace;
+  font-size: 14px;
+}
+
+/* =========================
+   Code
+   ========================= */
+
+code {
+  padding: 0 1px 2px;
+  color: #231f20;
+  word-wrap: word-break;
+  white-space: inherit;
+  background-color: #f1f2f3;
+  border: 1px solid #f1f2f3;
+  border-radius: 3px;
+}
+
+@media (min-width: 992px) {
+  code {
+    word-wrap: normal;
+    white-space: nowrap;
+  }
+}
+
+/* =========================
+   Sample
+   ========================= */
+
+samp {
+  padding: 0 1px 2px;
+  font-size: 14px;
+  color: #3b3e42;
+  white-space: nowrap;
+}
+
+/* =========================
+   Output
+   ========================= */
+
+output {
+  display: block;
+  padding: 0 15px;
+  margin: -15px 0 20px;
+  overflow: auto;
+  font-size: 14px;
+  line-height: 1.3333;
+  color: #3b3e42;
+  word-break: break-all;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+/* =========================
+   Pre
+   ========================= */
+
+pre {
+  display: block;
+  padding: 15px;
+  margin: 15px 0 20px;
+  font-size: 13.5px;
+  line-height: 1.428571429;
+  color: #231f20;
+  word-break: break-all;
+  word-wrap: normal;
+  background-color: #f8f9fa;
+  border: 1px solid #eaeced;
+  border-left: 24px solid #d1d3d4;
+  border-radius: 4px;
+}
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre;
+  background-color: transparent;
+  border: none;
 }
 
 /*
