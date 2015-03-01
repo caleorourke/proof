@@ -1,0 +1,60 @@
+/*
+ * Table
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+table {
+  display: block;
+  max-width: 100%;
+  min-height: .01%;
+  margin: 15px 0 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  line-height: @line-height-normal;
+
+  > thead {
+    color: @gray20;
+    background-color: @gray90;
+    border: 1px solid @gray60;
+
+    > tr {
+      > th {
+        border-left: 1px solid @gray60;
+      }
+
+      > th,
+      > td {
+        padding: 9px 11px 9px 10px;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  > tbody {
+    overflow-x: auto;
+    vertical-align: top;
+
+    > tr {
+      > th,
+      > td {
+        padding: 9px 11px 9px 10px;
+        border: 1px solid @gray60;
+      }
+
+      td > ol,
+      td > ul {
+        padding-left: 25px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: @view-large) {
+  table {
+    display: table;
+  }
+}

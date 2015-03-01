@@ -1,0 +1,58 @@
+#
+# * Config
+# * Stores static configuration and project info
+# *
+# * Copyright © SoftLayer, an IBM Company
+# * Released under the MIT license
+#
+
+# ==============================
+# Project
+# ==============================
+
+github:
+  name:       Python CLI
+  tagline:    Put your resources to work effortlessly from the command line
+  owner:      "SoftLayer, an IBM Company"
+  license:    MIT
+  client:     Python Client
+
+# ==============================
+# Social
+# ==============================
+
+freenode:     softlayer
+twitter:
+  handle:     SoftLayerDevs
+  hashtags:   "docs,github-pages"
+  text:       See how Hum from @softlayer helps you craft technical docs on GitHub
+keywords:     "css,framework,github,github pages,html5,hum,IBM,jekyll,liquid,markdown,redcarpet,softlayer"
+
+# ==============================
+# Markdown
+# ==============================
+
+markdown:     redcarpet
+redcarpet:
+  extensions: ["autolink",
+               "fenced_code_blocks",
+               "lax_spacing",
+               "smart",
+               "tables",
+               "with_toc_data"]
+
+# ==============================
+# Server
+# ==============================
+
+baseurl:      /hum
+permalink:    pretty
+exclude:      [".csscomb.json",
+               ".gitignore",
+               "Gruntfile.js",
+               "library",
+               "node_modules",
+               "package.json"]
+gems:
+  - jekyll-sitemap
+  - jekyll-gist

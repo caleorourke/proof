@@ -1,0 +1,39 @@
+/*
+ * Views
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+@view-xsmall:       480px;
+@view-small:        768px;
+@view-medium:       992px;
+@view-large:        1200px;
+
+@view-xsmall-max:   (@view-small - 1);
+@view-small-max:    (@view-medium - 1);
+@view-medium-max:   (@view-large - 1);
+
+/* =========================
+   Containers
+   ========================= */
+
+@container-sm:      ((720px + 30px));
+@container-md:      ((940px + 30px));
+@container-lg:      ((1140px + 30px));
+
+/* =========================
+   Mobile
+   ========================= */
+
+.mobile-view {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}

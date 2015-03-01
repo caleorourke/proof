@@ -1,0 +1,83 @@
+/*
+ * Base
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+/* =========================
+   Body
+   ========================= */
+
+body {
+  font-family: @font-family-sans;
+  font-size: @font-size-normal;
+  line-height: @line-height-normal;
+  color: @gray10;
+  background-color: @white;
+}
+
+/* =========================
+   Paragraph
+   ========================= */
+
+p {
+  margin: 0 0 12px;
+}
+
+/* =========================
+   Links
+   ========================= */
+
+a {
+  .underline-text();
+  color: @gray20;
+  &:hover,
+  &:focus {
+    color: @gray40;
+  }
+}
+
+/* =========================
+   Lists
+   ========================= */
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: @line-height-normal;
+
+  ul,
+  ol {
+    margin-bottom: 0;
+  }
+
+  li > p {
+    margin-bottom: 0;
+  }
+}
+
+/* =========================
+   Horizontal Rule
+   ========================= */
+
+hr {
+  width: 110px;
+  margin: 40px auto 40px;
+  clear: both;
+  border-top: 1px solid @gray70;
+}
+
+/* =========================
+   Wrapper
+   ========================= */
+
+.wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+  > a {
+    .no-underline-text();
+  }
+}

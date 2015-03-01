@@ -1,0 +1,59 @@
+/*
+ * Icons
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+.icon-large {
+  .transition(color .3s);
+  font-size: (@font-size-normal * 5) !important; // 80px
+  color: @gray20;
+  &:hover,
+  &:focus {
+    color: lighten(@gray20, 8%);
+  }
+
+  .shadow {
+    box-shadow: 0 6px 10px rgba(0,0,0,.23),0 10px 30px rgba(0,0,0,.19);
+    border-radius: 4px;
+    padding-bottom: 32px;
+  }
+}
+
+.icon-normal {
+  font-size: @font-size-normal;
+  color: @gray50;
+  letter-spacing: @letter-spacing-xlarge;
+}
+
+.icon-caption {
+  text-rendering: initial;
+  color: @gray40;
+  font-size: 18px;
+}
+
+.icon-blue {
+  color: #0ba9d6;
+}
+
+.icon-green {
+  color: #84c642;
+}
+
+.icon-yellow {
+  color: #e8c558;
+}
+
+.icon-orange {
+  color: #ee8f19;
+}
+
+.icon-red {
+  color: #ee4e34;
+}
+
+.icon-purple {
+  color: #a90b84;
+}

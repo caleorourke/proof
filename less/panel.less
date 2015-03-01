@@ -1,0 +1,51 @@
+/*
+ * Panel
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+.panel {
+  position: relative;
+  padding: 37px 15px 12px;
+  margin: 15px 0;
+  line-height: @line-height-normal;
+  border: 1px solid @gray60;
+  border-radius: @border-radius-normal;
+
+  p {
+    &:last-child {
+      margin-bottom: 5px;
+    }
+  }
+
+  & > .highlight {
+    margin: -12px 0;
+    border-width: 0 0 1px;
+    border-radius: @border-radius-normal;
+
+    @media (min-width: @view-small) {
+      margin-right: 0;
+      margin-left: 0;
+      border-width: 1px;
+      border-bottom-right-radius: @border-radius-normal;
+      border-bottom-left-radius: @border-radius-normal;
+    }
+  }
+}
+
+.panel-example {
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    font-size: 12.5px;
+    font-weight: @font-weight-bold;
+    color: @gray50;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    content: "Example";
+  }
+}

@@ -1,0 +1,49 @@
+/*
+ * Blockquote
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+blockquote {
+  padding: 12px 20px;
+  margin: 0 0 20px;
+  color: @gray40;
+  border-left: 6px solid @gray70;
+
+  p {
+    font-size: @font-size-blockquote;
+    font-weight: @font-weight-light;
+    line-height: @line-height-small;
+  }
+
+  p,
+  ul,
+  ol {
+    display: -webkit-inline-box;
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    code,
+    samp {
+      .antialiased-text();
+      font-size: @font-size-normal;
+      color: @gray20;
+    }
+  }
+
+  a {
+    .no-underline-text();
+    color: @blue;
+    &:hover,
+    &:focus {
+      color: darken(@blue, 8%)
+    }
+  }
+}

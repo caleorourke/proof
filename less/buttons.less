@@ -1,0 +1,88 @@
+/*
+ * Buttons
+ *
+ * Copyright © SoftLayer, an IBM Company
+ * Code and documentation licensed under MIT
+ *
+ */
+
+.button {
+  .no-underline-text();
+  .transition-duration(.3s);
+  .transition-property(all);
+  .button-size(@padding-vertical; @padding-horizontal-small; @font-size-small; @line-height-normal);
+  .button-variant(@button-default-color; @button-default-bg; @button-default-border; @button-default-hover);
+  display: inline-block;
+  font-weight: @font-weight-normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: @letter-spacing-small;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: @border-radius-xlarge;
+  &:hover,
+  &:focus {
+    color: @button-default-hover;
+  }
+}
+
+/* =========================
+   Variants
+   ========================= */
+
+.button-gray {
+  .button-variant(@button-gray-color; @button-gray-bg; @button-gray-border; @button-gray-hover);
+}
+
+.button-red {
+  .button-variant(@button-red-color; @button-red-bg; @button-red-border; @button-red-hover);
+}
+
+/* =========================
+   Button Sizes
+   ========================= */
+
+.button-small {
+  .button-size(@padding-vertical; @padding-horizontal-small; @font-size-xsmall; @line-height-small);
+  > i {
+    color: lighten(@gray40, 8%);
+  }
+}
+
+/* =========================
+   Button Types
+   ========================= */
+
+.button-circle {
+  .transition(background .3s ease-in-out);
+  width: 70px;
+  height: 70px;
+  padding: 7px 15px;
+  margin-top: 15px;
+  font-size: 40px;
+  color: @gray40;
+  background: 0 0;
+  border: 2px solid @gray40;
+  border-radius: @border-radius-xlarge !important;
+
+  &:hover,
+  &:focus {
+    color: @gray40;
+    background: rgba(255,255,255,.1);
+    outline: none;
+  }
+
+  &.animated {
+    .transition-property(-webkit-transform);
+    .transition-duration(1s);
+
+    &:hover {
+      .animation-name(pulse);
+      .animation-duration(1.5s);
+      .animation-iteration-count(infinite);
+      .animation-timing-function(linear);
+    }
+  }
+}

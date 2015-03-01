@@ -1,0 +1,18 @@
+{
+  "name": "Proof",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caleorourke/proof.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-csscomb": "^3.0.0",
+    "grunt-jekyll-pages": "^0.4.0",
+    "grunt-recess": "^1.0.0",
+    "grunt-shell": "^1.1.1"
+  }
+}
