@@ -2,7 +2,7 @@
  #  GitHub
  #  Fetches payloads for contributors, stargazers, and tags from GitHub
  #
- #  Copyright © SoftLayer, an IBM Company
+ #  Copyright © Michael O'Rourke (@caleorourke)
  #  Code and documentation licensed under MIT
  */
 

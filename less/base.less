@@ -1,7 +1,7 @@
 /*
  * Base
  *
- * Copyright © SoftLayer, an IBM Company
+ * Copyright © Michael O'Rourke (@caleorourke)
  * Code and documentation licensed under MIT
  *
  */
@@ -71,7 +71,7 @@ hr {
 }
 
 /* =========================
-   Wrapper
+   Wrappers
    ========================= */
 
 .wrapper {
@@ -79,5 +79,17 @@ hr {
   padding-bottom: 0;
   > a {
     .no-underline-text();
+  }
+}
+
+.main-wrapper {
+  padding-top: 7em;
+  padding-bottom: 2em;
+}
+
+@media (min-width: @view-small) {
+  .main-wrapper {
+    padding-top: 10em;
+    padding-bottom: 3em;
   }
 }

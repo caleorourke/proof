@@ -2,7 +2,7 @@
 # * Config
 # * Stores static configuration and project info
 # *
-# * Copyright © SoftLayer, an IBM Company
+# * Copyright © Michael O'Rourke (@caleorourke)
 # * Released under the MIT license
 #
 
@@ -11,22 +11,16 @@
 # ==============================
 
 github:
-  name:       Python CLI
-  tagline:    Put your resources to work effortlessly from the command line
-  owner:      "SoftLayer, an IBM Company"
+  name:       Proof
+  tagline:    "Design proofs and artifacts...FTW."
+  owner:      "Michael O'Rourke (@caleorourke)"
   license:    MIT
-  client:     Python Client
 
 # ==============================
 # Social
 # ==============================
 
-freenode:     softlayer
-twitter:
-  handle:     SoftLayerDevs
-  hashtags:   "docs,github-pages"
-  text:       See how Hum from @softlayer helps you craft technical docs on GitHub
-keywords:     "css,framework,github,github pages,html5,hum,IBM,jekyll,liquid,markdown,redcarpet,softlayer"
+keywords:     "css,framework,github,github pages,html5,proof,jekyll,liquid,markdown,redcarpet"
 
 # ==============================
 # Markdown
@@ -38,21 +32,17 @@ redcarpet:
                "fenced_code_blocks",
                "lax_spacing",
                "smart",
-               "tables",
-               "with_toc_data"]
+               "tables"]
 
 # ==============================
 # Server
 # ==============================
 
-baseurl:      /hum
+baseurl:      /proof
 permalink:    pretty
-exclude:      [".csscomb.json",
-               ".gitignore",
+exclude:      [".gitignore",
                "Gruntfile.js",
-               "library",
+               "less",
+               "plugins",
                "node_modules",
                "package.json"]
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
