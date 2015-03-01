@@ -31,8 +31,8 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      assets: ['assets/css/proof.min.css',
-               'assets/js/proof.min.js']
+      assets: ['css/main.css',
+               'js/main.js']
     },
 
     concat: {
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
           banner: '<%= banner %>'
         },
         src: ['plugins/github.js'],
-        dest: 'assets/js/proof.min.js'
+        dest: 'js/main.js'
       }
     },
 
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
           report: 'min'
         },
         src: '<%= concat.main.dest %>',
-        dest: 'assets/js/proof.min.js'
+        dest: 'js/main.js'
       }
     },
 
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
           banner: '<%= banner %>'
         },
         src: ['less/@import.less'],
-        dest: 'assets/css/proof.min.css'
+        dest: 'css/main.css'
       },
       minify: {
         options: {
@@ -91,15 +91,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-csscomb');
   grunt.loadNpmTasks('grunt-jekyll-pages');
   grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-shell');
 
-  grunt.registerTask('build',         ['clean', 'concat', 'uglify', 'recess:minify']);
-  grunt.registerTask('build:pretty',  ['clean', 'concat', 'recess:unminify']);
-  grunt.registerTask('install',       ['shell:gems']);
-  grunt.registerTask('preview',       ['pages:start']);
-  grunt.registerTask('serve',         ['build', 'pages:start']);
-  grunt.registerTask('serve:pretty',  ['build:pretty', 'pages:start']);
+  grunt.registerTask('build',   ['recess:unminify']);
+  grunt.registerTask('install', ['shell:gems']);
+  grunt.registerTask('preview', ['pages:start']);
+  grunt.registerTask('serve',   ['build', 'pages:start']);
 };
