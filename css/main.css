@@ -388,6 +388,37 @@ hr {
   }
 }
 
+/* =========================
+   Error
+   ========================= */
+
+.error-page {
+  margin: 100px 0;
+  font-family: courier;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  background-color: #009;
+}
+
+.error-page .neg {
+  padding: 2px 8px;
+  color: #009;
+  background: #fff;
+}
+
+.error-page p {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.error-page a,
+.error-page a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 /*
  * Font
  *
