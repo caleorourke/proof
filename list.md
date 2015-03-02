@@ -4,7 +4,31 @@ title: List
 baseurl: "../"
 ---
 
-Activity | Artifact | Deliverable | Role | Swimlanes |
+# Nova
+
+| Project | References |
+| ------- | ---------- |
+| OpenStack Project | Nova |
+| Product Family| Compute |
+| Source Code | |
+| Features | |
+| Defects | |
+| Docs | |
+
+# Team
+
+| Role | Name | Email | Mobile |
+| ---- | ---- | ----- | ------ |
+| Product Architect | Harvey Wallbanger | hwallbanger@us.ibm.com | (949) 555-4491 |
+| Product Manager | Bobby Burns | bburns@us.ibm.com | (949) 555-4492 |
+| Project Manager | Salmiakki Koskenkorva | skoskenkorva@us.ibm.com | (949) 555-4493 |
+| Technical Lead | Tom Collins | tcollins@us.ibm.com | (949) 555-4493 |
+| Developer | Rose Kennedy | rkennedy@us.ibm.com | (949) 555-4494 |
+| Developer | Vesper Martini | vmartini@us.ibm.com | (949) 555-4495 |
+
+# Punchlist
+
+| Activity | Artifact | Deliverable | Role | Swimlanes |
 | -------- | -------- | ----------- | ---- | --------- |
 | Product Vision  | Product Brief | Create Product Brief with requirements | Product Manager | Build |
 | Pricing | Pricing Matrix | Get floor pricing for individual product items | Product Manager | Define |
