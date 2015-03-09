@@ -1383,7 +1383,8 @@ blockquote a:focus {
  */
 
 .icon-large {
-  padding-top: 7px;
+  z-index: 10;
+  padding-top: 23px;
   font-size: 80px !important;
   color: #3b3e42;
   -webkit-transition: color 0.3s;
@@ -1619,7 +1620,7 @@ pre code {
 }
 
 /*
- * Shapes
+ * Hex
  *
  * Copyright © Michael O'Rourke (@caleorourke)
  * Code and documentation licensed under MIT
@@ -1628,35 +1629,37 @@ pre code {
 
 .hexagon {
   position: relative;
-  width: 150px;
-  height: 86.60px;
-  margin: 43.30px 0;
+  width: 180px;
+  height: 103.92px;
+  margin: 51.96px 0;
   background-color: #ffffff;
-  box-shadow: 0 0 20px rgba(146, 146, 146, 0.45);
+  box-shadow: 0 0 20px rgba(146, 146, 146, 0.35);
 }
 
 .hexagon:before,
 .hexagon:after {
   position: absolute;
-  left: 21.9670px;
+  left: 26.3604px;
   z-index: 1;
-  width: 106.07px;
-  height: 106.07px;
+  width: 127.28px;
+  height: 127.28px;
   background-color: inherit;
   content: "";
   -webkit-transform: scaleY(0.5774) rotate(-45deg);
       -ms-transform: scaleY(0.5774) rotate(-45deg);
           transform: scaleY(0.5774) rotate(-45deg);
-  box-shadow: 0 0 20px rgba(146, 146, 146, 0.45);
+  box-shadow: 0 0 20px rgba(146, 146, 146, 0.35);
 }
 
 .hexagon:before {
-  top: -53.033px;
+  top: -63.6396px;
 }
 
 .hexagon:after {
-  bottom: -53.033px;
+  bottom: -63.6396px;
 }
+
+/*cover up extra shadows*/
 
 .hexagon span {
   position: absolute;
@@ -1664,16 +1667,11 @@ pre code {
   left: 0;
   z-index: 2;
   display: block;
-  width: 150px;
-  height: 86.6025px;
+  width: 180px;
+  height: 103.9230px;
   background: inherit;
 }
 
-.hexagon.green {
+.green {
   background-color: #84c642;
-}
-
-.shadow {
-  padding-bottom: 32px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23), 0 10px 30px rgba(0, 0, 0, 0.19);
 }
