@@ -1,0 +1,59 @@
+/*
+ * Shapes
+ *
+ * Copyright © Michael O'Rourke (@caleorourke)
+ * Code and documentation licensed under MIT
+ *
+ */
+
+.hexagon {
+  position: relative;
+  width: 150px;
+  height: 86.60px;
+  background-color: #ffffff;
+  margin: 43.30px 0;
+  box-shadow: 0 0 20px rgba(146,146,146,0.45);
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 106.07px;
+    height: 106.07px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+            transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 21.9670px;
+    box-shadow: 0 0 20px rgba(146,146,146,0.45);
+  }
+
+  &:before {
+    top: -53.0330px;
+  }
+
+  &:after {
+    bottom: -53.0330px;
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0;
+    width:150px;
+    height:86.6025px;
+    z-index: 2;
+    background: inherit;
+  }
+
+  &.green {
+    background-color: #84c642;
+  }
+}
+
+.shadow {
+  box-shadow: 0 6px 10px rgba(0,0,0,.23),0 10px 30px rgba(0,0,0,.19);
+  padding-bottom: 32px;
+}
