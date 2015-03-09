@@ -1,0 +1,91 @@
+<section>
+  <div class="container main-wrapper">
+    <div class="col-md-12">
+    <div class="row">
+
+      <!-- Compute -->
+      <div class="col-md-3">
+
+        <div class="u-text-center u-margin-bottom">
+          <div class="hexagon green shadow">
+            <span>
+              <i class="fa fa-server fa-inverse icon-large"></i>
+            </span>
+          </div>
+          <h2 class="icon-caption u-padding-top">Bare Metal Servers</h2>
+        </div>
+
+        <div class="u-text-center">
+          <div class="hexagon green shadow">
+            <span>
+              <i class="fa fa-server fa-inverse icon-large"></i>
+            </span>
+          </div>
+          <h2 class="icon-caption u-padding-top">Virtual Servers</h2>
+        </div>
+
+      </div>
+
+      <!-- Identity -->
+      <div class="col-md-2">
+        <div class="u-text-center">
+          <span class="fa-stack icon-large icon-orange">
+            <i class="fa fa-circle fa-stack-2x shadow"></i>
+            <i class="fa fa-key fa-stack-1x fa-inverse"></i>
+          </span>
+          <h2 class="icon-caption">Identity</h2>
+        </div>
+      </div>
+
+      <!-- Network -->
+      <div class="col-md-2">
+        <div class="u-text-center">
+          <span class="fa-stack icon-large icon-purple">
+            <i class="fa fa-circle fa-stack-2x shadow"></i>
+            <i class="fa fa-signal fa-stack-1x fa-inverse"></i>
+          </span>
+          <h2 class="icon-caption">Network</h2>
+        </div>
+      </div>
+
+      <!-- Storage -->
+      <div class="col-md-2">
+        <div class="u-text-center u-margin-bottom">
+          <span class="fa-stack icon-large icon-blue">
+            <i class="fa fa-circle fa-stack-2x shadow"></i>
+            <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+          </span>
+          <h2 class="icon-caption">Block Storage</h2>
+        </div>
+
+        <div class="u-text-center u-margin-bottom">
+          <span class="fa-stack icon-large icon-blue">
+            <i class="fa fa-circle fa-stack-2x shadow"></i>
+            <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+          </span>
+          <h2 class="icon-caption">Object Storage</h2>
+        </div>
+
+        <div class="u-text-center u-margin-bottom">
+          <span class="fa-stack icon-large icon-blue">
+            <i class="fa fa-circle fa-stack-2x shadow"></i>
+            <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+          </span>
+          <h2 class="icon-caption">Archival Storage</h2>
+        </div>
+      </div>
+
+      <!-- Platform -->
+      <div class="col-md-2">
+        <div class="u-text-center">
+          <span class="fa-stack icon-large icon-red">
+            <i class="fa fa-circle fa-stack-2x shadow"></i>
+            <i class="fa fa-sliders fa-stack-1x fa-inverse"></i>
+          </span>
+          <h2 class="icon-caption">Platform Services</h2>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
