@@ -1,6 +1,6 @@
 /* 
  * 
- * Proof, Built on 03-01-2015
+ * Proof, Built on 03-09-2015
  * Copyright © 2015 Michael O'Rourke (@caleorourke). All rights reserved.
  * Code and documentation licensed under the MIT license.
  * 
@@ -379,13 +379,6 @@ hr {
 .main-wrapper {
   padding-top: 7em;
   padding-bottom: 2em;
-}
-
-@media (min-width: 768px) {
-  .main-wrapper {
-    padding-top: 10em;
-    padding-bottom: 3em;
-  }
 }
 
 /* =========================
@@ -1390,16 +1383,12 @@ blockquote a:focus {
  */
 
 .icon-large {
+  padding-top: 7px;
   font-size: 80px !important;
   color: #3b3e42;
   -webkit-transition: color 0.3s;
        -o-transition: color 0.3s;
           transition: color 0.3s;
-}
-
-.icon-large:hover,
-.icon-large:focus {
-  color: #4e5258;
 }
 
 .icon-large .shadow {
@@ -1603,4 +1592,88 @@ pre code {
 
 .u-text-center {
   text-align: center;
+}
+
+/* =========================
+   Margins
+   ========================= */
+
+.u-margin-top {
+  margin-top: 40px;
+}
+
+.u-margin-bottom {
+  margin-bottom: 40px;
+}
+
+/* =========================
+   Padding
+   ========================= */
+
+.u-padding-top {
+  padding-top: 15px;
+}
+
+.u-padding-bottom {
+  padding-bottom: 15px;
+}
+
+/*
+ * Shapes
+ *
+ * Copyright © Michael O'Rourke (@caleorourke)
+ * Code and documentation licensed under MIT
+ *
+ */
+
+.hexagon {
+  position: relative;
+  width: 150px;
+  height: 86.60px;
+  margin: 43.30px 0;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(146, 146, 146, 0.45);
+}
+
+.hexagon:before,
+.hexagon:after {
+  position: absolute;
+  left: 21.9670px;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  background-color: inherit;
+  content: "";
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+      -ms-transform: scaleY(0.5774) rotate(-45deg);
+          transform: scaleY(0.5774) rotate(-45deg);
+  box-shadow: 0 0 20px rgba(146, 146, 146, 0.45);
+}
+
+.hexagon:before {
+  top: -53.033px;
+}
+
+.hexagon:after {
+  bottom: -53.033px;
+}
+
+.hexagon span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+  width: 150px;
+  height: 86.6025px;
+  background: inherit;
+}
+
+.hexagon.green {
+  background-color: #84c642;
+}
+
+.shadow {
+  padding-bottom: 32px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23), 0 10px 30px rgba(0, 0, 0, 0.19);
 }
