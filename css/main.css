@@ -1,6 +1,6 @@
 /* 
  * 
- * Proof, Built on 03-09-2015
+ * Proof, Built on 03-10-2015
  * Copyright © 2015 Michael O'Rourke (@caleorourke). All rights reserved.
  * Code and documentation licensed under the MIT license.
  * 
@@ -1410,13 +1410,6 @@ blockquote a:focus {
   text-rendering: initial;
 }
 
-.icon-caption-arcade {
-  font-family: "Press Start 2P", cursive;
-  font-size: 12px;
-  color: #ffffff;
-  text-align: center;
-}
-
 .icon-blue {
   color: #0ba9d6;
 }
@@ -1730,8 +1723,16 @@ pre code {
  *
  */
 
-.bg-arcade {
-  background-color: #231f20;
+.arcade-background {
+  background-color: #0e0e0e;
+}
+
+.arcade-caption {
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+  color: #f2f2f2;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .space-invader-red {
@@ -1739,8 +1740,8 @@ pre code {
   height: 1em;
   margin: 50px 0 70px 65px;
   overflow: hidden;
-  background: #ee4e34;
-  box-shadow: 0 0 0 1em #ee4e34, 0 1em 0 1em #ee4e34, -2.5em 1.5em 0 0.5em #ee4e34, 2.5em 1.5em 0 0.5em #ee4e34, -3em -3em 0 0 #ee4e34, 3em -3em 0 0 #ee4e34, -2em -2em 0 0 #ee4e34, 2em -2em 0 0 #ee4e34, -3em -1em 0 0 #ee4e34, -2em -1em 0 0 #ee4e34, 2em -1em 0 0 #ee4e34, 3em -1em 0 0 #ee4e34, -4em 0 0 0 #ee4e34, -3em 0 0 0 #ee4e34, 3em 0 0 0 #ee4e34, 4em 0 0 0 #ee4e34, -5em 1em 0 0 #ee4e34, -4em 1em 0 0 #ee4e34, 4em 1em 0 0 #ee4e34, 5em 1em 0 0 #ee4e34, -5em 2em 0 0 #ee4e34, 5em 2em 0 0 #ee4e34, -5em 3em 0 0 #ee4e34, -3em 3em 0 0 #ee4e34, 3em 3em 0 0 #ee4e34, 5em 3em 0 0 #ee4e34, -2em 4em 0 0 #ee4e34, -1em 4em 0 0 #ee4e34, 1em 4em 0 0 #ee4e34, 2em 4em 0 0 #ee4e34;
+  background: #f2124c;
+  box-shadow: 0 0 0 1em #f2124c, 0 1em 0 1em #f2124c, -2.5em 1.5em 0 0.5em #f2124c, 2.5em 1.5em 0 0.5em #f2124c, -3em -3em 0 0 #f2124c, 3em -3em 0 0 #f2124c, -2em -2em 0 0 #f2124c, 2em -2em 0 0 #f2124c, -3em -1em 0 0 #f2124c, -2em -1em 0 0 #f2124c, 2em -1em 0 0 #f2124c, 3em -1em 0 0 #f2124c, -4em 0 0 0 #f2124c, -3em 0 0 0 #f2124c, 3em 0 0 0 #f2124c, 4em 0 0 0 #f2124c, -5em 1em 0 0 #f2124c, -4em 1em 0 0 #f2124c, 4em 1em 0 0 #f2124c, 5em 1em 0 0 #f2124c, -5em 2em 0 0 #f2124c, 5em 2em 0 0 #f2124c, -5em 3em 0 0 #f2124c, -3em 3em 0 0 #f2124c, 3em 3em 0 0 #f2124c, 5em 3em 0 0 #f2124c, -2em 4em 0 0 #f2124c, -1em 4em 0 0 #f2124c, 1em 4em 0 0 #f2124c, 2em 4em 0 0 #f2124c;
 }
 
 .space-invader-green {
@@ -1748,8 +1749,8 @@ pre code {
   height: 1em;
   margin: 50px 0 70px 65px;
   overflow: hidden;
-  background: #84c642;
-  box-shadow: 0 0 0 1em #84c642, 0 1em 0 1em #84c642, -2.5em 1.5em 0 0.5em #84c642, 2.5em 1.5em 0 0.5em #84c642, -3em -3em 0 0 #84c642, 3em -3em 0 0 #84c642, -2em -2em 0 0 #84c642, 2em -2em 0 0 #84c642, -3em -1em 0 0 #84c642, -2em -1em 0 0 #84c642, 2em -1em 0 0 #84c642, 3em -1em 0 0 #84c642, -4em 0 0 0 #84c642, -3em 0 0 0 #84c642, 3em 0 0 0 #84c642, 4em 0 0 0 #84c642, -5em 1em 0 0 #84c642, -4em 1em 0 0 #84c642, 4em 1em 0 0 #84c642, 5em 1em 0 0 #84c642, -5em 2em 0 0 #84c642, 5em 2em 0 0 #84c642, -5em 3em 0 0 #84c642, -3em 3em 0 0 #84c642, 3em 3em 0 0 #84c642, 5em 3em 0 0 #84c642, -2em 4em 0 0 #84c642, -1em 4em 0 0 #84c642, 1em 4em 0 0 #84c642, 2em 4em 0 0 #84c642;
+  background: #39d630;
+  box-shadow: 0 0 0 1em #39d630, 0 1em 0 1em #39d630, -2.5em 1.5em 0 0.5em #39d630, 2.5em 1.5em 0 0.5em #39d630, -3em -3em 0 0 #39d630, 3em -3em 0 0 #39d630, -2em -2em 0 0 #39d630, 2em -2em 0 0 #39d630, -3em -1em 0 0 #39d630, -2em -1em 0 0 #39d630, 2em -1em 0 0 #39d630, 3em -1em 0 0 #39d630, -4em 0 0 0 #39d630, -3em 0 0 0 #39d630, 3em 0 0 0 #39d630, 4em 0 0 0 #39d630, -5em 1em 0 0 #39d630, -4em 1em 0 0 #39d630, 4em 1em 0 0 #39d630, 5em 1em 0 0 #39d630, -5em 2em 0 0 #39d630, 5em 2em 0 0 #39d630, -5em 3em 0 0 #39d630, -3em 3em 0 0 #39d630, 3em 3em 0 0 #39d630, 5em 3em 0 0 #39d630, -2em 4em 0 0 #39d630, -1em 4em 0 0 #39d630, 1em 4em 0 0 #39d630, 2em 4em 0 0 #39d630;
 }
 
 .space-invader-blue {
@@ -1757,8 +1758,8 @@ pre code {
   height: 1em;
   margin: 50px 0 70px 65px;
   overflow: hidden;
-  background: #0ba9d6;
-  box-shadow: 0 0 0 1em #0ba9d6, 0 1em 0 1em #0ba9d6, -2.5em 1.5em 0 0.5em #0ba9d6, 2.5em 1.5em 0 0.5em #0ba9d6, -3em -3em 0 0 #0ba9d6, 3em -3em 0 0 #0ba9d6, -2em -2em 0 0 #0ba9d6, 2em -2em 0 0 #0ba9d6, -3em -1em 0 0 #0ba9d6, -2em -1em 0 0 #0ba9d6, 2em -1em 0 0 #0ba9d6, 3em -1em 0 0 #0ba9d6, -4em 0 0 0 #0ba9d6, -3em 0 0 0 #0ba9d6, 3em 0 0 0 #0ba9d6, 4em 0 0 0 #0ba9d6, -5em 1em 0 0 #0ba9d6, -4em 1em 0 0 #0ba9d6, 4em 1em 0 0 #0ba9d6, 5em 1em 0 0 #0ba9d6, -5em 2em 0 0 #0ba9d6, 5em 2em 0 0 #0ba9d6, -5em 3em 0 0 #0ba9d6, -3em 3em 0 0 #0ba9d6, 3em 3em 0 0 #0ba9d6, 5em 3em 0 0 #0ba9d6, -2em 4em 0 0 #0ba9d6, -1em 4em 0 0 #0ba9d6, 1em 4em 0 0 #0ba9d6, 2em 4em 0 0 #0ba9d6;
+  background: #1b95d8;
+  box-shadow: 0 0 0 1em #1b95d8, 0 1em 0 1em #1b95d8, -2.5em 1.5em 0 0.5em #1b95d8, 2.5em 1.5em 0 0.5em #1b95d8, -3em -3em 0 0 #1b95d8, 3em -3em 0 0 #1b95d8, -2em -2em 0 0 #1b95d8, 2em -2em 0 0 #1b95d8, -3em -1em 0 0 #1b95d8, -2em -1em 0 0 #1b95d8, 2em -1em 0 0 #1b95d8, 3em -1em 0 0 #1b95d8, -4em 0 0 0 #1b95d8, -3em 0 0 0 #1b95d8, 3em 0 0 0 #1b95d8, 4em 0 0 0 #1b95d8, -5em 1em 0 0 #1b95d8, -4em 1em 0 0 #1b95d8, 4em 1em 0 0 #1b95d8, 5em 1em 0 0 #1b95d8, -5em 2em 0 0 #1b95d8, 5em 2em 0 0 #1b95d8, -5em 3em 0 0 #1b95d8, -3em 3em 0 0 #1b95d8, 3em 3em 0 0 #1b95d8, 5em 3em 0 0 #1b95d8, -2em 4em 0 0 #1b95d8, -1em 4em 0 0 #1b95d8, 1em 4em 0 0 #1b95d8, 2em 4em 0 0 #1b95d8;
 }
 
 .space-invader-purple {
@@ -1766,8 +1767,8 @@ pre code {
   height: 1em;
   margin: 50px 0 70px 65px;
   overflow: hidden;
-  background: #a90b84;
-  box-shadow: 0 0 0 1em #a90b84, 0 1em 0 1em #a90b84, -2.5em 1.5em 0 0.5em #a90b84, 2.5em 1.5em 0 0.5em #a90b84, -3em -3em 0 0 #a90b84, 3em -3em 0 0 #a90b84, -2em -2em 0 0 #a90b84, 2em -2em 0 0 #a90b84, -3em -1em 0 0 #a90b84, -2em -1em 0 0 #a90b84, 2em -1em 0 0 #a90b84, 3em -1em 0 0 #a90b84, -4em 0 0 0 #a90b84, -3em 0 0 0 #a90b84, 3em 0 0 0 #a90b84, 4em 0 0 0 #a90b84, -5em 1em 0 0 #a90b84, -4em 1em 0 0 #a90b84, 4em 1em 0 0 #a90b84, 5em 1em 0 0 #a90b84, -5em 2em 0 0 #a90b84, 5em 2em 0 0 #a90b84, -5em 3em 0 0 #a90b84, -3em 3em 0 0 #a90b84, 3em 3em 0 0 #a90b84, 5em 3em 0 0 #a90b84, -2em 4em 0 0 #a90b84, -1em 4em 0 0 #a90b84, 1em 4em 0 0 #a90b84, 2em 4em 0 0 #a90b84;
+  background: #d85ed6;
+  box-shadow: 0 0 0 1em #d85ed6, 0 1em 0 1em #d85ed6, -2.5em 1.5em 0 0.5em #d85ed6, 2.5em 1.5em 0 0.5em #d85ed6, -3em -3em 0 0 #d85ed6, 3em -3em 0 0 #d85ed6, -2em -2em 0 0 #d85ed6, 2em -2em 0 0 #d85ed6, -3em -1em 0 0 #d85ed6, -2em -1em 0 0 #d85ed6, 2em -1em 0 0 #d85ed6, 3em -1em 0 0 #d85ed6, -4em 0 0 0 #d85ed6, -3em 0 0 0 #d85ed6, 3em 0 0 0 #d85ed6, 4em 0 0 0 #d85ed6, -5em 1em 0 0 #d85ed6, -4em 1em 0 0 #d85ed6, 4em 1em 0 0 #d85ed6, 5em 1em 0 0 #d85ed6, -5em 2em 0 0 #d85ed6, 5em 2em 0 0 #d85ed6, -5em 3em 0 0 #d85ed6, -3em 3em 0 0 #d85ed6, 3em 3em 0 0 #d85ed6, 5em 3em 0 0 #d85ed6, -2em 4em 0 0 #d85ed6, -1em 4em 0 0 #d85ed6, 1em 4em 0 0 #d85ed6, 2em 4em 0 0 #d85ed6;
 }
 
 .space-invader-orange {
@@ -1775,6 +1776,6 @@ pre code {
   height: 1em;
   margin: 50px 0 70px 65px;
   overflow: hidden;
-  background: #ee8f19;
-  box-shadow: 0 0 0 1em #ee8f19, 0 1em 0 1em #ee8f19, -2.5em 1.5em 0 0.5em #ee8f19, 2.5em 1.5em 0 0.5em #ee8f19, -3em -3em 0 0 #ee8f19, 3em -3em 0 0 #ee8f19, -2em -2em 0 0 #ee8f19, 2em -2em 0 0 #ee8f19, -3em -1em 0 0 #ee8f19, -2em -1em 0 0 #ee8f19, 2em -1em 0 0 #ee8f19, 3em -1em 0 0 #ee8f19, -4em 0 0 0 #ee8f19, -3em 0 0 0 #ee8f19, 3em 0 0 0 #ee8f19, 4em 0 0 0 #ee8f19, -5em 1em 0 0 #ee8f19, -4em 1em 0 0 #ee8f19, 4em 1em 0 0 #ee8f19, 5em 1em 0 0 #ee8f19, -5em 2em 0 0 #ee8f19, 5em 2em 0 0 #ee8f19, -5em 3em 0 0 #ee8f19, -3em 3em 0 0 #ee8f19, 3em 3em 0 0 #ee8f19, 5em 3em 0 0 #ee8f19, -2em 4em 0 0 #ee8f19, -1em 4em 0 0 #ee8f19, 1em 4em 0 0 #ee8f19, 2em 4em 0 0 #ee8f19;
+  background: #ffb851;
+  box-shadow: 0 0 0 1em #ffb851, 0 1em 0 1em #ffb851, -2.5em 1.5em 0 0.5em #ffb851, 2.5em 1.5em 0 0.5em #ffb851, -3em -3em 0 0 #ffb851, 3em -3em 0 0 #ffb851, -2em -2em 0 0 #ffb851, 2em -2em 0 0 #ffb851, -3em -1em 0 0 #ffb851, -2em -1em 0 0 #ffb851, 2em -1em 0 0 #ffb851, 3em -1em 0 0 #ffb851, -4em 0 0 0 #ffb851, -3em 0 0 0 #ffb851, 3em 0 0 0 #ffb851, 4em 0 0 0 #ffb851, -5em 1em 0 0 #ffb851, -4em 1em 0 0 #ffb851, 4em 1em 0 0 #ffb851, 5em 1em 0 0 #ffb851, -5em 2em 0 0 #ffb851, 5em 2em 0 0 #ffb851, -5em 3em 0 0 #ffb851, -3em 3em 0 0 #ffb851, 3em 3em 0 0 #ffb851, 5em 3em 0 0 #ffb851, -2em 4em 0 0 #ffb851, -1em 4em 0 0 #ffb851, 1em 4em 0 0 #ffb851, 2em 4em 0 0 #ffb851;
 }
