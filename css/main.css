@@ -1412,8 +1412,9 @@ blockquote a:focus {
 
 .icon-caption-arcade {
   font-family: "Press Start 2P", cursive;
-  font-size: 14px;
+  font-size: 12px;
   color: #ffffff;
+  text-align: center;
 }
 
 .icon-blue {
@@ -1606,11 +1607,11 @@ pre code {
    ========================= */
 
 .u-margin-top {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .u-margin-bottom {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 /* =========================
@@ -1738,8 +1739,8 @@ pre code {
   height: 1em;
   margin: 50px 0 70px 65px;
   overflow: hidden;
-  background: #e4423d;
-  box-shadow: 0 0 0 1em #e4423d, 0 1em 0 1em #e4423d, -2.5em 1.5em 0 0.5em #e4423d, 2.5em 1.5em 0 0.5em #e4423d, -3em -3em 0 0 #e4423d, 3em -3em 0 0 #e4423d, -2em -2em 0 0 #e4423d, 2em -2em 0 0 #e4423d, -3em -1em 0 0 #e4423d, -2em -1em 0 0 #e4423d, 2em -1em 0 0 #e4423d, 3em -1em 0 0 #e4423d, -4em 0 0 0 #e4423d, -3em 0 0 0 #e4423d, 3em 0 0 0 #e4423d, 4em 0 0 0 #e4423d, -5em 1em 0 0 #e4423d, -4em 1em 0 0 #e4423d, 4em 1em 0 0 #e4423d, 5em 1em 0 0 #e4423d, -5em 2em 0 0 #e4423d, 5em 2em 0 0 #e4423d, -5em 3em 0 0 #e4423d, -3em 3em 0 0 #e4423d, 3em 3em 0 0 #e4423d, 5em 3em 0 0 #e4423d, -2em 4em 0 0 #e4423d, -1em 4em 0 0 #e4423d, 1em 4em 0 0 #e4423d, 2em 4em 0 0 #e4423d;
+  background: #ee4e34;
+  box-shadow: 0 0 0 1em #ee4e34, 0 1em 0 1em #ee4e34, -2.5em 1.5em 0 0.5em #ee4e34, 2.5em 1.5em 0 0.5em #ee4e34, -3em -3em 0 0 #ee4e34, 3em -3em 0 0 #ee4e34, -2em -2em 0 0 #ee4e34, 2em -2em 0 0 #ee4e34, -3em -1em 0 0 #ee4e34, -2em -1em 0 0 #ee4e34, 2em -1em 0 0 #ee4e34, 3em -1em 0 0 #ee4e34, -4em 0 0 0 #ee4e34, -3em 0 0 0 #ee4e34, 3em 0 0 0 #ee4e34, 4em 0 0 0 #ee4e34, -5em 1em 0 0 #ee4e34, -4em 1em 0 0 #ee4e34, 4em 1em 0 0 #ee4e34, 5em 1em 0 0 #ee4e34, -5em 2em 0 0 #ee4e34, 5em 2em 0 0 #ee4e34, -5em 3em 0 0 #ee4e34, -3em 3em 0 0 #ee4e34, 3em 3em 0 0 #ee4e34, 5em 3em 0 0 #ee4e34, -2em 4em 0 0 #ee4e34, -1em 4em 0 0 #ee4e34, 1em 4em 0 0 #ee4e34, 2em 4em 0 0 #ee4e34;
 }
 
 .space-invader-green {
@@ -1747,6 +1748,33 @@ pre code {
   height: 1em;
   margin: 50px 0 70px 65px;
   overflow: hidden;
-  background: #00a14b;
-  box-shadow: 0 0 0 1em #00a14b, 0 1em 0 1em #00a14b, -2.5em 1.5em 0 0.5em #00a14b, 2.5em 1.5em 0 0.5em #00a14b, -3em -3em 0 0 #00a14b, 3em -3em 0 0 #00a14b, -2em -2em 0 0 #00a14b, 2em -2em 0 0 #00a14b, -3em -1em 0 0 #00a14b, -2em -1em 0 0 #00a14b, 2em -1em 0 0 #00a14b, 3em -1em 0 0 #00a14b, -4em 0 0 0 #00a14b, -3em 0 0 0 #00a14b, 3em 0 0 0 #00a14b, 4em 0 0 0 #00a14b, -5em 1em 0 0 #00a14b, -4em 1em 0 0 #00a14b, 4em 1em 0 0 #00a14b, 5em 1em 0 0 #00a14b, -5em 2em 0 0 #00a14b, 5em 2em 0 0 #00a14b, -5em 3em 0 0 #00a14b, -3em 3em 0 0 #00a14b, 3em 3em 0 0 #00a14b, 5em 3em 0 0 #00a14b, -2em 4em 0 0 #00a14b, -1em 4em 0 0 #00a14b, 1em 4em 0 0 #00a14b, 2em 4em 0 0 #00a14b;
+  background: #84c642;
+  box-shadow: 0 0 0 1em #84c642, 0 1em 0 1em #84c642, -2.5em 1.5em 0 0.5em #84c642, 2.5em 1.5em 0 0.5em #84c642, -3em -3em 0 0 #84c642, 3em -3em 0 0 #84c642, -2em -2em 0 0 #84c642, 2em -2em 0 0 #84c642, -3em -1em 0 0 #84c642, -2em -1em 0 0 #84c642, 2em -1em 0 0 #84c642, 3em -1em 0 0 #84c642, -4em 0 0 0 #84c642, -3em 0 0 0 #84c642, 3em 0 0 0 #84c642, 4em 0 0 0 #84c642, -5em 1em 0 0 #84c642, -4em 1em 0 0 #84c642, 4em 1em 0 0 #84c642, 5em 1em 0 0 #84c642, -5em 2em 0 0 #84c642, 5em 2em 0 0 #84c642, -5em 3em 0 0 #84c642, -3em 3em 0 0 #84c642, 3em 3em 0 0 #84c642, 5em 3em 0 0 #84c642, -2em 4em 0 0 #84c642, -1em 4em 0 0 #84c642, 1em 4em 0 0 #84c642, 2em 4em 0 0 #84c642;
+}
+
+.space-invader-blue {
+  width: 1em;
+  height: 1em;
+  margin: 50px 0 70px 65px;
+  overflow: hidden;
+  background: #0ba9d6;
+  box-shadow: 0 0 0 1em #0ba9d6, 0 1em 0 1em #0ba9d6, -2.5em 1.5em 0 0.5em #0ba9d6, 2.5em 1.5em 0 0.5em #0ba9d6, -3em -3em 0 0 #0ba9d6, 3em -3em 0 0 #0ba9d6, -2em -2em 0 0 #0ba9d6, 2em -2em 0 0 #0ba9d6, -3em -1em 0 0 #0ba9d6, -2em -1em 0 0 #0ba9d6, 2em -1em 0 0 #0ba9d6, 3em -1em 0 0 #0ba9d6, -4em 0 0 0 #0ba9d6, -3em 0 0 0 #0ba9d6, 3em 0 0 0 #0ba9d6, 4em 0 0 0 #0ba9d6, -5em 1em 0 0 #0ba9d6, -4em 1em 0 0 #0ba9d6, 4em 1em 0 0 #0ba9d6, 5em 1em 0 0 #0ba9d6, -5em 2em 0 0 #0ba9d6, 5em 2em 0 0 #0ba9d6, -5em 3em 0 0 #0ba9d6, -3em 3em 0 0 #0ba9d6, 3em 3em 0 0 #0ba9d6, 5em 3em 0 0 #0ba9d6, -2em 4em 0 0 #0ba9d6, -1em 4em 0 0 #0ba9d6, 1em 4em 0 0 #0ba9d6, 2em 4em 0 0 #0ba9d6;
+}
+
+.space-invader-purple {
+  width: 1em;
+  height: 1em;
+  margin: 50px 0 70px 65px;
+  overflow: hidden;
+  background: #a90b84;
+  box-shadow: 0 0 0 1em #a90b84, 0 1em 0 1em #a90b84, -2.5em 1.5em 0 0.5em #a90b84, 2.5em 1.5em 0 0.5em #a90b84, -3em -3em 0 0 #a90b84, 3em -3em 0 0 #a90b84, -2em -2em 0 0 #a90b84, 2em -2em 0 0 #a90b84, -3em -1em 0 0 #a90b84, -2em -1em 0 0 #a90b84, 2em -1em 0 0 #a90b84, 3em -1em 0 0 #a90b84, -4em 0 0 0 #a90b84, -3em 0 0 0 #a90b84, 3em 0 0 0 #a90b84, 4em 0 0 0 #a90b84, -5em 1em 0 0 #a90b84, -4em 1em 0 0 #a90b84, 4em 1em 0 0 #a90b84, 5em 1em 0 0 #a90b84, -5em 2em 0 0 #a90b84, 5em 2em 0 0 #a90b84, -5em 3em 0 0 #a90b84, -3em 3em 0 0 #a90b84, 3em 3em 0 0 #a90b84, 5em 3em 0 0 #a90b84, -2em 4em 0 0 #a90b84, -1em 4em 0 0 #a90b84, 1em 4em 0 0 #a90b84, 2em 4em 0 0 #a90b84;
+}
+
+.space-invader-orange {
+  width: 1em;
+  height: 1em;
+  margin: 50px 0 70px 65px;
+  overflow: hidden;
+  background: #ee8f19;
+  box-shadow: 0 0 0 1em #ee8f19, 0 1em 0 1em #ee8f19, -2.5em 1.5em 0 0.5em #ee8f19, 2.5em 1.5em 0 0.5em #ee8f19, -3em -3em 0 0 #ee8f19, 3em -3em 0 0 #ee8f19, -2em -2em 0 0 #ee8f19, 2em -2em 0 0 #ee8f19, -3em -1em 0 0 #ee8f19, -2em -1em 0 0 #ee8f19, 2em -1em 0 0 #ee8f19, 3em -1em 0 0 #ee8f19, -4em 0 0 0 #ee8f19, -3em 0 0 0 #ee8f19, 3em 0 0 0 #ee8f19, 4em 0 0 0 #ee8f19, -5em 1em 0 0 #ee8f19, -4em 1em 0 0 #ee8f19, 4em 1em 0 0 #ee8f19, 5em 1em 0 0 #ee8f19, -5em 2em 0 0 #ee8f19, 5em 2em 0 0 #ee8f19, -5em 3em 0 0 #ee8f19, -3em 3em 0 0 #ee8f19, 3em 3em 0 0 #ee8f19, 5em 3em 0 0 #ee8f19, -2em 4em 0 0 #ee8f19, -1em 4em 0 0 #ee8f19, 1em 4em 0 0 #ee8f19, 2em 4em 0 0 #ee8f19;
 }
