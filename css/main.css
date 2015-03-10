@@ -1384,8 +1384,8 @@ blockquote a:focus {
 
 .icon-large {
   z-index: 10;
-  padding-top: 23px;
-  font-size: 80px !important;
+  padding-top: 11px;
+  font-size: 92px !important;
   color: #3b3e42;
   -webkit-transition: color 0.3s;
        -o-transition: color 0.3s;
@@ -1408,6 +1408,12 @@ blockquote a:focus {
   font-size: 18px;
   color: #808285;
   text-rendering: initial;
+}
+
+.icon-caption-arcade {
+  font-family: "Press Start 2P", cursive;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .icon-blue {
@@ -1674,4 +1680,73 @@ pre code {
 
 .green {
   background-color: #84c642;
+}
+
+/*
+ * Octagon
+ *
+ * Copyright © Michael O'Rourke (@caleorourke)
+ * Code and documentation licensed under MIT
+ *
+ */
+
+.octagon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.octagon :before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 0;
+  border-right: 29px solid #eee;
+  border-bottom: 29px solid red;
+  border-left: 29px solid #eee;
+  content: "";
+}
+
+.octagon :after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 42px;
+  height: 0;
+  border-top: 29px solid red;
+  border-right: 29px solid #eee;
+  border-left: 29px solid #eee;
+  content: "";
+}
+
+/*
+ * Arcade
+ *
+ * Copyright © Michael O'Rourke (@caleorourke)
+ * Code and documentation licensed under MIT
+ *
+ */
+
+.bg-arcade {
+  background-color: #231f20;
+}
+
+.space-invader-red {
+  width: 1em;
+  height: 1em;
+  margin: 50px 0 70px 65px;
+  overflow: hidden;
+  background: #e4423d;
+  box-shadow: 0 0 0 1em #e4423d, 0 1em 0 1em #e4423d, -2.5em 1.5em 0 0.5em #e4423d, 2.5em 1.5em 0 0.5em #e4423d, -3em -3em 0 0 #e4423d, 3em -3em 0 0 #e4423d, -2em -2em 0 0 #e4423d, 2em -2em 0 0 #e4423d, -3em -1em 0 0 #e4423d, -2em -1em 0 0 #e4423d, 2em -1em 0 0 #e4423d, 3em -1em 0 0 #e4423d, -4em 0 0 0 #e4423d, -3em 0 0 0 #e4423d, 3em 0 0 0 #e4423d, 4em 0 0 0 #e4423d, -5em 1em 0 0 #e4423d, -4em 1em 0 0 #e4423d, 4em 1em 0 0 #e4423d, 5em 1em 0 0 #e4423d, -5em 2em 0 0 #e4423d, 5em 2em 0 0 #e4423d, -5em 3em 0 0 #e4423d, -3em 3em 0 0 #e4423d, 3em 3em 0 0 #e4423d, 5em 3em 0 0 #e4423d, -2em 4em 0 0 #e4423d, -1em 4em 0 0 #e4423d, 1em 4em 0 0 #e4423d, 2em 4em 0 0 #e4423d;
+}
+
+.space-invader-green {
+  width: 1em;
+  height: 1em;
+  margin: 50px 0 70px 65px;
+  overflow: hidden;
+  background: #00a14b;
+  box-shadow: 0 0 0 1em #00a14b, 0 1em 0 1em #00a14b, -2.5em 1.5em 0 0.5em #00a14b, 2.5em 1.5em 0 0.5em #00a14b, -3em -3em 0 0 #00a14b, 3em -3em 0 0 #00a14b, -2em -2em 0 0 #00a14b, 2em -2em 0 0 #00a14b, -3em -1em 0 0 #00a14b, -2em -1em 0 0 #00a14b, 2em -1em 0 0 #00a14b, 3em -1em 0 0 #00a14b, -4em 0 0 0 #00a14b, -3em 0 0 0 #00a14b, 3em 0 0 0 #00a14b, 4em 0 0 0 #00a14b, -5em 1em 0 0 #00a14b, -4em 1em 0 0 #00a14b, 4em 1em 0 0 #00a14b, 5em 1em 0 0 #00a14b, -5em 2em 0 0 #00a14b, 5em 2em 0 0 #00a14b, -5em 3em 0 0 #00a14b, -3em 3em 0 0 #00a14b, 3em 3em 0 0 #00a14b, 5em 3em 0 0 #00a14b, -2em 4em 0 0 #00a14b, -1em 4em 0 0 #00a14b, 1em 4em 0 0 #00a14b, 2em 4em 0 0 #00a14b;
 }
