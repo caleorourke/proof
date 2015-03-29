@@ -1401,7 +1401,7 @@ blockquote a:focus {
 }
 
 .icon-caption {
-  padding-top: 10px;
+  padding-top: 160px;
   font-size: 12.5px;
   letter-spacing: .01em;
   color: #959697;
@@ -1437,11 +1437,22 @@ blockquote a:focus {
 }
 
 .fa-lock:before,
-.fa-cloud:before,
-.fa-signal:before,
-.fa-cube:before,
-.fa-database:before {
+.fa-cloud:before {
   font-size: larger;
+}
+
+.fa-cube {
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.fa-signal {
+  margin-top: 3px;
+}
+
+.fa-cloud,
+.fa-lock {
+  margin-top: 8px;
 }
 
 /*
