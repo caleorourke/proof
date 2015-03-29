@@ -1,6 +1,6 @@
 /* 
  * 
- * Proof, Built on 03-10-2015
+ * Proof, Built on 03-29-2015
  * Copyright © 2015 Michael O'Rourke (@caleorourke). All rights reserved.
  * Code and documentation licensed under the MIT license.
  * 
@@ -1384,16 +1384,12 @@ blockquote a:focus {
 
 .icon-large {
   z-index: 10;
-  padding-top: 11px;
-  font-size: 92px !important;
-  color: #3b3e42;
-  -webkit-transition: color 0.3s;
-       -o-transition: color 0.3s;
-          transition: color 0.3s;
+  padding-top: 20px;
+  font-size: 86px !important;
 }
 
 .icon-large .shadow {
-  padding-bottom: 32px;
+  padding-bottom: 40px;
   border-radius: 4px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23), 0 10px 30px rgba(0, 0, 0, 0.19);
 }
@@ -1405,8 +1401,9 @@ blockquote a:focus {
 }
 
 .icon-caption {
+  padding-top: 23px;
   font-size: 18px;
-  color: #808285;
+  color: #84888F;
   text-rendering: initial;
 }
 
