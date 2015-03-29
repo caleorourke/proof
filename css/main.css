@@ -1384,12 +1384,12 @@ blockquote a:focus {
 
 .icon-large {
   z-index: 10;
-  padding-top: 20px;
-  font-size: 86px !important;
+  padding-top: 10px;
+  font-size: 80px !important;
 }
 
 .icon-large .shadow {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   border-radius: 4px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23), 0 10px 30px rgba(0, 0, 0, 0.19);
 }
@@ -1401,10 +1401,11 @@ blockquote a:focus {
 }
 
 .icon-caption {
-  padding-top: 23px;
-  font-size: 18px;
-  color: #84888F;
-  text-rendering: initial;
+  padding-top: 10px;
+  font-size: 12.5px;
+  letter-spacing: .01em;
+  color: #959697;
+  text-transform: uppercase;
 }
 
 .icon-blue {
@@ -1429,6 +1430,18 @@ blockquote a:focus {
 
 .icon-purple {
   color: #a90b84;
+}
+
+.icon-transparent {
+  color: transparent;
+}
+
+.fa-lock:before,
+.fa-cloud:before,
+.fa-signal:before,
+.fa-cube:before,
+.fa-database:before {
+  font-size: larger;
 }
 
 /*
