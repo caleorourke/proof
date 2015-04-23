@@ -1765,6 +1765,7 @@ pre code {
 .arcade-caption-gray {
   font-family: "Press Start 2P", cursive;
   font-size: 12px;
+  letter-spacing: .02em;
   color: #c0c0c0;
   text-align: center;
   text-transform: uppercase;
