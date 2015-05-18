@@ -28,3 +28,8 @@
     border-right: 50px solid transparent;
     border-top: 25px solid red;
 }
+
+.fa-code {
+  font-size: 100px;
+  margin-top: 4px;
+}
